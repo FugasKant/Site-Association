@@ -10,6 +10,21 @@
 
 html,
 body {
+  min-height: 100vh;
   font-family: "Open Sans", sans-serif;
   color: #222;
+}
+
+/* Home */
+
+.home {
+  height: 90vh;
+  background: url(../images/hands-2847508__340.webp) center center/ cover;
+}
+
+.home-btn {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
