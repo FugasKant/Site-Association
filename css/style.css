@@ -75,3 +75,17 @@ img {
 .international-description {
   padding: 1.5rem;
 }
+
+/* Footer */
+
+footer {
+  height: 30vh;
+  background: #333;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+}
