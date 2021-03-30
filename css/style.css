@@ -15,11 +15,15 @@ body {
   color: #222;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Home */
 
 .home {
   height: 90vh;
-  background: url(../images/hands-2847508__340.webp) center center/ cover;
+  background: url(../images/girl-3717166__340.webp) center center/ cover;
 }
 
 .home-btn {
@@ -27,4 +31,47 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+}
+
+/* Mission */
+
+.mission {
+  display: flex;
+  margin: 2rem;
+  height: 600px;
+}
+
+.mission-national {
+  max-height: 600px;
+  margin-right: 3rem;
+  flex: 1;
+}
+
+.national-img img {
+  height: 400px;
+  width: 100%;
+}
+
+.national-img {
+}
+
+.national-description {
+  padding: 1.5rem;
+}
+
+.mission-international {
+  height: 600px;
+  flex: 1;
+}
+
+.international-img img {
+  height: 400px;
+  width: 100%;
+}
+
+.international-img {
+}
+
+.international-description {
+  padding: 1.5rem;
 }
