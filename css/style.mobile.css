@@ -1,0 +1,59 @@
+/* Mission */
+
+main {
+  height: 1000px;
+}
+
+.mission {
+  display: block;
+  width: 100%;
+  margin: 0;
+}
+
+.mission-national {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.national-img img {
+  max-height: 400px;
+  width: 100%;
+}
+
+.national-img {
+}
+
+.national-description {
+  padding: 1rem;
+}
+
+.mission-international {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.international-img img {
+  max-height: 400px;
+  width: 100%;
+}
+
+.international-img {
+}
+
+.international-description {
+  padding: 1rem;
+}
+
+/* Footer */
+
+footer {
+  background: #333;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  display: block;
+}

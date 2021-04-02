@@ -23,7 +23,7 @@ img {
 
 .home {
   height: 90vh;
-  background: url(../images/girl-3717166__340.webp) center center/ cover;
+  background: url(../images/girl-1822480_1920.jpg) center center/ cover;
 }
 
 .home-btn {
@@ -38,7 +38,7 @@ img {
 .mission {
   display: flex;
   margin: 2rem;
-  height: 600px;
+  max-height: 600px;
 }
 
 .mission-national {
@@ -48,7 +48,7 @@ img {
 }
 
 .national-img img {
-  height: 400px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -60,12 +60,12 @@ img {
 }
 
 .mission-international {
-  height: 600px;
+  max-height: 600px;
   flex: 1;
 }
 
 .international-img img {
-  height: 400px;
+  max-height: 400px;
   width: 100%;
 }
 
@@ -88,4 +88,5 @@ footer {
 }
 
 .copyright {
+  display: block;
 }
